@@ -16,13 +16,13 @@ flag:
 
 int main(){
 	int n1,n2;
-	printf("ÇëÊäÈëÁ½¸öÊı:\n");
+	printf("è¯·è¾“å…¥ä¸¤ä¸ªæ•°:\n");
 	scanf("%d", &n1);
 	scanf("%d", &n2);
 	if(n1<n2)
 	goto flag;
 	int ret = add(n1,n2);
-	printf("ÔËËã½á¹ûÎª: %d\n", ret);
+	printf("è¿ç®—ç»“æœä¸º: %d\n", ret);
 }
 
 
